@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: bisque;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.header_content {
+    display: block;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+div.header_content > h1 {
+    margin: 0 auto;
+}
+
+div.header_content > h2 {
+    margin: 0 auto;
+}
+
+section.hero {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: url("images/galaxybg.jpg");
+}
+
+footer {
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.footer_content {
+    display: block;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+div.footer_content > h2 {
+    margin: 0 auto;
+}
